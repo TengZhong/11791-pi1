@@ -19,5 +19,10 @@
   			<version>9.4.2-SNAPSHOT</version>
 		</plugin>
   	</plugins>
-  </build>>
+  </build>
+  <parent>
+        <artifactId>war-parent-pom</artifactId>
+        <groupId>org.lappsgrid.maven</groupId>
+        <version>2.0.5</version>
+  </parent>
 </project>
