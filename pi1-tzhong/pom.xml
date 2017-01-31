@@ -1,31 +1,29 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>org.lappsgrid</groupId>
-    <artifactId>pi1-tzhong</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <!-- inheritance info -->
-    <parent>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.lappsgrid</groupId>
+  <artifactId>pi1-tzhong</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <!-- inheritance info -->
+  <parent>
         <artifactId>war-parent-pom</artifactId>
         <groupId>org.lappsgrid.maven</groupId>
         <version>2.0.5</version>
-    </parent>
-    <!-- API dependency -->
-    <dependencies>
-        <dependency>
-            <groupId>org.lappsgrid</groupId>
-            <artifactId>all</artifactId>
-            <version>2.3.1</version>
-        </dependency>
-    </dependencies>
-    <build>
-  		<plugins>
-  		<plugin>
-  			<groupId>org.eclipse.jetty</groupId>
-  			<artifactId>jetty-maven-plugin</artifactId>
-  			<version>9.4.2-SNAPSHOT</version>
-		</plugin>
-  	</plugins>
+  </parent>
+  <dependencies>
+   <dependency>
+    <groupId>org.lappsgrid</groupId>
+    <artifactId>all</artifactId>
+    <version>2.3.1</version>
+   </dependency>
+  </dependencies>
+  <packaging>war</packaging>
+  <build>
+   <plugins>
+    <plugin>
+     <groupId>org.eclipse.jetty</groupId>
+     <artifactId>jetty-maven-plugin</artifactId>
+     <version>9.4.2-SNAPSHOT</version>
+  </plugin>
+   </plugins>
   </build>
-    <packaging>war</packaging>
 </project>
