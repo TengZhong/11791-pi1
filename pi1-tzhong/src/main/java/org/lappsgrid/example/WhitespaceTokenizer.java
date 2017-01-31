@@ -64,7 +64,7 @@ public class WhitespaceTokenizer implements ProcessingService
         metadata.setProduces(produces);
 
         // Serialize the metadata to a string and return
-        Data<ServiceMetadata> data = new Data<>(Uri.META, metadata);
+        Data<ServiceMetadata> data = new Data<ServiceMetadata>(Uri.META, metadata);
         return data.asPrettyJson();
     }
 
