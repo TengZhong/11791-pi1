@@ -1,13 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <!-- current project definition -->
     <groupId>org.lappsgrid</groupId>
     <artifactId>pi1-tzhong</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>war</packaging>
-    <name>Lappsgrid Service Example</name>
-    <description>Lapps Web Services wrapping example</description>
+    <version>0.0.1-SNAPSHOT</version>
     <!-- inheritance info -->
     <parent>
         <artifactId>war-parent-pom</artifactId>
